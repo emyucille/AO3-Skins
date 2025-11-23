@@ -1,0 +1,514 @@
+#outer {
+  background-image: url(https://i.postimg.cc/h4V1Knmk/hearts.png);
+}
+
+a:hover,
+a:focus {
+  font-style: italic;
+}
+
+::selection {
+  color: white;
+  background-color: black;
+}
+
+#header {
+  border-bottom: solid 20px transparent;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace_1_black_-_horrere.png) 30% round;
+}
+
+#header .heading a {
+  color: black;
+}
+
+#header #greeting {
+  text-shadow: 1px 0px white, -1px 0px white, 0px 1px white, 0px -1px white, 1px 1px 2px #705966;
+}
+
+#header .primary {
+  background: #000 url(https://i.postimg.cc/3JvNwRyD/black.jpg);
+}
+
+#header .primary > li:first-of-type,
+#header .primary > li:nth-of-type(2) {
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+#header .primary > li:nth-of-type(3) {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  border-image: linear-gradient(-90deg, white, transparent) 1;
+}
+
+#header .primary > li:nth-of-type(4) {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  border-right: solid 2px white;
+  border-radius: 0px 20px 20px 0px;
+}
+
+#header .logo {
+  display: none;
+}
+
+#header .heading a:before {
+  content: url(https://i.postimg.cc/kMHWMCPW/ao3-logo.png);
+}
+
+#greeting a:not(.dropdown-toggle):hover,
+#greeting a:not(.dropdown-toggle):focus {
+  background: transparent !important;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+#header li:hover:not(.search,
+.dropdown-menu li),
+#header li:focus:not(.search,
+.dropdown-menu li) {
+  color: #d1b4c4 !important;
+  background: white !important;
+  border: solid 1px black !important;
+  border-radius: 20px !important;
+}
+
+.dropdown-menu {
+  background: white !important;
+  border: solid 2px black;
+}
+
+.dropdown-menu li:hover {
+  background: #eee !important;
+}
+
+.dropdown-menu a:hover {
+  color: #6b5a64 !important;
+  text-decoration: underline;
+}
+
+.search [role="tooltip"] {
+  color: white;
+  background: #444;
+  border-color: black;
+}
+
+#footer {
+  background: #000 url(https://i.postimg.cc/3JvNwRyD/black.jpg);
+  border-top: solid 20px;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace_1_black_-_horrere.png) 30% round;
+  border-image-outset: 20px;
+}
+
+.logged-in .splash > .module {
+  background-color: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logged-in .splash > div:nth-of-type(even) {
+  margin-left: 1px;
+  margin-right: 0;
+}
+
+.logged-in .splash > div:nth-of-type(odd) {
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.splash .module h3:after,
+.dropdown-menu li a:after {
+  content: " ♱";
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #f2e4ec;
+}
+
+.splash .favorite li a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover {
+  background: black;
+}
+
+.splash .browse li a:before {
+  color: #ab8e9e;
+}
+
+.reading h4.viewed {
+  background: #f2e4ec;
+}
+
+.heading:not(#footer) {
+  color: black;
+  filter: drop-shadow(2px 0px white) drop-shadow(-2px 0px white) drop-shadow(0px 2px white) drop-shadow(0px -2px white);
+}
+
+.icon img {
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace-1-black-horrere.png) fill 20% round;
+}
+
+.index .skins .icon img {
+  background: transparent;
+}
+
+.home .primary {
+  margin: 0 0 15px 0;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: #444;
+  border: 2px solid #000;
+}
+
+form.verbose legend,
+.verbose form legend {
+  border-color: #b39aa8;
+  box-shadow: 1px 2px 3px #c7afbd;
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: #f2e4ec;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace-1-black-horrere.png) fill 35% round;
+  box-shadow: inset 1px 0 5px #c7afbd;
+}
+
+form dl {
+  background: #ffffffdd;
+  border: 2px solid #b39aa8;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: #fff;
+}
+
+span.question {
+  background: #b5a1ac;
+  border-color: #3d3d3d;
+}
+
+span.symbol {
+  color: #3d3d3d;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #6b5a64;
+}
+
+li.blurb:not(.splash .blurb) {
+  background: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #ab8e9e;
+}
+
+h2.title {
+  font-family: garamond, georgia, serif;
+  color: #875f76 !important;
+  filter: drop-shadow(2px 0px white) drop-shadow(-2px 0px white) drop-shadow(0px 2px white) drop-shadow(0px -2px white) drop-shadow(2px 0px black) drop-shadow(-2px 0px black) drop-shadow(0px 2px black) drop-shadow(0px -2px black) !important;
+}
+
+h3.title {
+  filter: drop-shadow(1px 0px white) drop-shadow(-1px 0px white) drop-shadow(0px 1px white) drop-shadow(0px -1px white) drop-shadow(1px 0px black) drop-shadow(-1px 0px black) drop-shadow(0px 1px black) drop-shadow(0px -1px black) !important;
+}
+
+.title a,
+.title a:visited,
+.title a:visited:hover {
+  color: #875f76;
+}
+
+dl.meta {
+  background: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+}
+
+a.tag:hover {
+  background-color: black !important;
+}
+
+.tags a.tag {
+  color: #6b5a64;
+  background: linear-gradient(white 2%, #e8d1de 40%, #d1b4c4 60%);
+  border: solid 1px #6b5a64;
+  border-radius: 5px;
+  line-height: 2.3;
+  padding: 2px 5px;
+}
+
+.tags a.tag:after {
+  content: " 𝜗𝜚";
+}
+
+.tags a.tag:hover {
+  color: white;
+  background: linear-gradient(#777 2%, #555 40%, #333 60%);
+  border: solid 1px #000;
+}
+
+#workskin {
+  background: #f2e4ec;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace-1-black-horrere.png) fill 35% round;
+  box-shadow: inset 1px 0 5px #c7afbd;
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+#workskin .module:not([role=article]) {
+  background: #ffffffdd;
+  border: 2px solid #b39aa8;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+#workskin .module:last-of-type {
+  margin-bottom: 0px;
+}
+
+p.kudos {
+  background: url(https://i.postimg.cc/HxQGDNJn/ao3-kudos.png) no-repeat -111px -559px;
+  filter: drop-shadow(1px 0px white) drop-shadow(-1px 0px white) drop-shadow(0px 1px white) drop-shadow(0px -1px white);
+}
+
+.comment div.icon {
+  border-bottom: none;
+  margin: -1.5625em 1.5em 0.5625em 0;
+  z-index: 100;
+  position: relative;
+}
+
+.comment .icon .visitor {
+  background: url(https://i.postimg.cc/pLgyFVXD/guest-pfp.jpg);
+  background-size: contain;
+  border: solid 3px black;
+}
+
+.comment h4.byline {
+  color: white !important;
+  filter: none !important;
+  background: #444;
+  padding: 0.25em 0.25em 0.25em 125px;
+}
+
+.comment h4.byline a,
+.comment h4.byline a:link,
+.comment h4.byline a:visited:hover {
+  color: #e8d1de;
+}
+
+.comment h4.byline a:visited {
+  color: #ad97a4;
+}
+
+div.comment,
+li.comment {
+  background: white;
+}
+
+.thread .even {
+  background: #f2e4ec;
+  border-color: #b39aa8;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  color: #6b5a64;
+  background: linear-gradient(white 2%, #e8d1de 40%, #d1b4c4 60%);
+  border: solid 1px #6b5a64;
+}
+
+.actions a:visited,
+.action:visited,
+.action a:link,
+.action a:visited {
+  color: black;
+}
+
+.actions input:hover,
+.actions button:hover {
+  color: black;
+  font-style: italic;
+}
+
+#dashboard,
+#dashboard.own {
+  background: url(https://i.postimg.cc/BZDZxwC1/pink.png);
+  border: solid #222;
+  border-width: 15px 2px 15px 2px;
+  border-radius: 0.25em;
+}
+
+#dashboard ul {
+  border-color: #000;
+}
+
+#dashboard a {
+  color: #6b5a64;
+  background: linear-gradient(white 2%, #e8d1de 40%, #d1b4c4 60%);
+  border: solid 1px #6b5a64;
+}
+
+#dashboard .current,
+#dashboard a:hover {
+  color: white;
+  background: linear-gradient(#777 2%, #555 40%, #333 60%);
+  border: solid 1px #000;
+}
+
+.header h2:after {
+  content: url(https://i.postimg.cc/02J6pBvB/jirai-melody.png);
+}
+
+.bio .userstuff {
+  background: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+  padding: 10px;
+}
+
+.pseud .header .heading,
+.collection .header .heading,
+.skins .header .heading:not(.primary .heading) {
+  margin-left: 80px;
+}
+
+.pseud .header,
+.collection .header,
+.skins .header:not(.primary .header) {
+  min-height: 80px;
+}
+
+.bookmark .user {
+  background: #f2e4ec;
+  border-color: #b39aa8;
+}
+
+.bookmark h5.byline.heading:after {
+  content: " ♡";
+}
+
+blockquote pre:not(.skins-index blockquote pre,
+.primary blockquote pre) {
+  background-color: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background-color: #debacf;
+  border-color: #c499b2;
+}
+
+#main.errors {
+  background-image: url(https://i.postimg.cc/7YtdYptf/jirai.png);
+}
+
+dl.subscription {
+  background: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+  padding: 10px 0px 0px 10px;
+}
+
+.subscription dd {
+  background-color: transparent !important;
+}
+
+.skins .userstuff:not(.skins-index .userstuff) {
+  background: transparent;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/wj8P8wKy/lace_1_blackwhite_-_horrere.png) fill 35% round;
+  padding: 5px;
+}
+
+.news[role=article],
+.docs .userstuff:not(.index .userstuff) {
+  background: #f2e4ec;
+  border: solid 10px;
+  border-image: url(https://i.postimg.cc/P5DBkcy9/lace-1-black-horrere.png) fill 35% round;
+  box-shadow: inset 1px 0 5px #c7afbd;
+}
+
+html:before {
+  background-image: url(https://i.postimg.cc/Rh5G52rJ/jirai-melody.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  content: "";
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1000;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 17px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #eee;
+}
+
+::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%);
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(180deg, #e5e5e5, #f0f0f0 20%);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1.5px solid #888;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 1px #fff, inset 0 1px 1px #fff;
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background: url("https://i.postimg.cc/VsjN3F6Y/vertical.png") no-repeat 50%, linear-gradient(90deg, #eee 45%, #ddd 0, #bbb);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: url("https://i.postimg.cc/3JTkRc6w/horizontal.png") no-repeat 50%, linear-gradient(180deg, #eee 45%, #ddd 0, #bbb);
+}
