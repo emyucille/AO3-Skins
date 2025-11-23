@@ -1,2 +1,11 @@
 # AO3-Skins
-ao3 site/work skins by me ^^
+a collection of ao3 skins made by yours truly <3
+
+## How to use
+1. go to https://archiveofourown.org/skins/new
+2. make sure it says **site skin** under **type**. (in the future i may make work skins)
+3. give it a name! preferrably something that **describes the skin** (ex. "kawaii pastel pink")
+4. copy and paste the content in the **css file** of the skin you want to use into the **css box**
+5. **submit** the skin, scroll to the bottom, and click **use**
+
+i will make a better tutorial one day...
